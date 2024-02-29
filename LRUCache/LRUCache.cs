@@ -106,7 +106,6 @@ public class LRUCache : ILRUCache
     /// Removes an item from cache.
     /// </summary>
     /// <param name="key">The key to remove from cache along with its item.</param>
-    /// <returns>True if item is found and removed. False if nothing is removed, this could be due to an invalid.</returns>
     public void Remove(string key)
     {
         lock (_lockObject)

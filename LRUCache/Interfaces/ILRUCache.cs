@@ -29,6 +29,5 @@ public interface ILRUCache
     /// Removes an item from cache.
     /// </summary>
     /// <param name="key">The key to remove from cache along with its item.</param>
-    /// <returns>True if found and removed. False if key not found.</returns>
     void Remove(string key);
 }
